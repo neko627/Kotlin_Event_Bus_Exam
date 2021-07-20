@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         text = findViewById(R.id.text)
 
         button.setOnClickListener {
-            Log.d("@@@", "Button Click")
+            Log.d(TAG, "Button Click")
             Event.getInstance().post(Event())
         }
     }
